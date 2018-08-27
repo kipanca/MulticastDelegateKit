@@ -31,7 +31,7 @@
 /* Begin PBXFileReference section */
 		0BAAA124D43E129BD7E1ACEA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		1BD5F5A5DE2A2B71A95BB2C3 /* Pods_MulticastDelegate_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MulticastDelegate_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3A7E3FC935BFDEB2471EBEBB /* MulticastDelegate.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = MulticastDelegate.podspec; path = ../MulticastDelegate.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		3A7E3FC935BFDEB2471EBEBB /* MulticastDelegateKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = MulticastDelegateKit.podspec; path = ../MulticastDelegateKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		607FACD01AFB9204008FA782 /* MulticastDelegate_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MulticastDelegate_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -135,7 +135,7 @@
 		607FACF51AFB993E008FA782 /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
-				3A7E3FC935BFDEB2471EBEBB /* MulticastDelegate.podspec */,
+				3A7E3FC935BFDEB2471EBEBB /* MulticastDelegateKit.podspec */,
 				86892D867F014F7A6A42BF4B /* README.md */,
 				0BAAA124D43E129BD7E1ACEA /* LICENSE */,
 			);
