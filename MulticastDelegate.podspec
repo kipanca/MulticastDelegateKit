@@ -20,7 +20,7 @@ Pod::Spec.new do |s|
   s.description      = 'A simple library which allows to have several delegates instead of one. Also it includes subclasses for UIKit controls to work with MulticastDelegate.'
   s.homepage         = 'https://github.com/elano50/MulticastDelegate'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'Alex Kisel' => 'alexander.kisel@brander.ua' }
+  s.author           = { 'Alex Kisel' => 'kipanca7@gmail.com' }
   s.source           = { :git => 'https://github.com/elano50/MulticastDelegate.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '9.3'
