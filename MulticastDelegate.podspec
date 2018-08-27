@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MulticastDelegate'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of MulticastDelegate.'
+  s.version          = '1.0.0'
+  s.summary          = 'A library which allows to have several delegates instead of one'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,18 +17,14 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
-
-  s.homepage         = 'https://github.com/Alex Kisel/MulticastDelegate'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+  s.description      = 'A simple library which allows to have several delegates instead of one. Also it includes subclasses for UIKit controls to work with MulticastDelegate.'
+  s.homepage         = 'https://github.com/elano50/MulticastDelegate'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Alex Kisel' => 'alexander.kisel@brander.ua' }
-  s.source           = { :git => 'https://github.com/Alex Kisel/MulticastDelegate.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.source           = { :git => 'https://github.com/elano50/MulticastDelegate.git', :tag => s.version.to_s }
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '9.3'
+  s.swift_version = '4.2'
 
   s.source_files = 'MulticastDelegate/Classes/**/*'
   

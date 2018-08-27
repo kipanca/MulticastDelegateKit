@@ -1,0 +1,16 @@
+PODS:
+  - MulticastDelegate (0.1.0)
+
+DEPENDENCIES:
+  - MulticastDelegate (from `../`)
+
+EXTERNAL SOURCES:
+  MulticastDelegate:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MulticastDelegate: a208cecbd5d9e1f6902c769983fce9ed06951279
+
+PODFILE CHECKSUM: b1bcaa3e409d2c7b9c7e09ff2c2038251cf2757e
+
+COCOAPODS: 1.5.2
