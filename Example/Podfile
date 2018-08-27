@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'MulticastDelegate_Example' do
+  pod 'MulticastDelegate', :path => '../'
+
+  target 'MulticastDelegate_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
