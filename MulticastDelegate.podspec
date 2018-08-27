@@ -7,7 +7,7 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'MulticastDelegate'
+  s.name             = 'MulticastDelegateKit'
   s.version          = '1.0.0'
   s.summary          = 'A library which allows to have several delegates instead of one'
 
