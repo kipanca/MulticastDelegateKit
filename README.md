@@ -1,5 +1,3 @@
-MulticastDelegateKit: Simple multicast delegate in Swift
-
 [![CI Status](https://img.shields.io/travis/Alex Kisel/MulticastDelegate.svg?style=flat)](https://travis-ci.org/Alex Kisel/MulticastDelegate)
 [![Version](https://img.shields.io/cocoapods/v/MulticastDelegate.svg?style=flat)](https://cocoapods.org/pods/MulticastDelegate)
 [![License](https://img.shields.io/cocoapods/l/MulticastDelegate.svg?style=flat)](https://cocoapods.org/pods/MulticastDelegate)
