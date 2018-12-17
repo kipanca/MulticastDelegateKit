@@ -80,7 +80,7 @@ class FooClass: UITableViewDelegate, MulticastableDelegate {
     return 100
   }
 
-  func responsableForSelectors() -> [String]? {
+  func responsibleForSelectors() -> [String]? {
     return [#selector(tableView(_:heightForRowAt:)).description]
   }
 }
