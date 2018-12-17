@@ -11,7 +11,7 @@ Multicast delegate framework written on Swift 4.2.
 |-------------------|------------------------------------------------------------|
 :performing_arts:| Adding multicast delegate to your custom classes
 :bicyclist:| Subclasses of UIKit controls with multicast delegate property (currently only for UITableView) 
-:rocket:| Manage which delegates responsible for returning value for UIKit controls using ```responsableForSelectors()``` function
+:rocket:| Manage which delegates responsible for returning value for UIKit controls using ```responsibleForSelectors()``` function
 
 
 ## Example
@@ -60,6 +60,26 @@ class BazClass: FooClassDelegate {
   
   func fooEvent() {
     
+  }
+}
+```
+
+### Responsible for selectors example
+
+```swift
+class FooClass: UITableViewDelegate, MulticastableDelegate {
+  var tableView: MultidelegateTableView
+
+  func setup() {
+    tableView.multiDelegate.add(delegate: self)
+  }
+
+  func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+    return 100
+  }
+
+  func responsableForSelectors() -> [String]? {
+    return [#selector(tableView(_:heightForRowAt:)).description]
   }
 }
 ```
