@@ -1,4 +1,4 @@
-![MulticastDelegateKit: Simple multi delegate in Swift](https://github.com/luximetr/AnyFormatKit/blob/develop/Assets/anyformatkit.png)
+![MulticastDelegateKit: Simple multi delegate in Swift](https://github.com/elano50/MulticastDelegateKit/blob/master/Assets/logo.png)
 
 [![Build Status](https://travis-ci.org/elano50/MulticastDelegateKit.svg?branch=master)](https://travis-ci.org/elano50/MulticastDelegateKit)
 [![Version](https://img.shields.io/cocoapods/v/MulticastDelegateKit.svg?style=flat)](https://cocoapods.org/pods/MulticastDelegateKit)
