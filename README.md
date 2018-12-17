@@ -10,7 +10,7 @@ Multicast delegate framework written on Swift 4.2.
 | |Features |
 |-------------------|------------------------------------------------------------|
 :performing_arts:| Adding multicast delegate to your custom classes
-:bicyclist:| Subclasses of UIKit controls with multicast delegate property (currently on for UITableView) 
+:bicyclist:| Subclasses of UIKit controls with multicast delegate property (currently only for UITableView) 
 
 ## Example
 
