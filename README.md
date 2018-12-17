@@ -11,7 +11,8 @@ Multicast delegate framework written on Swift 4.2.
 |-------------------|------------------------------------------------------------|
 :performing_arts:| Adding multicast delegate to your custom classes
 :bicyclist:| Subclasses of UIKit controls with multicast delegate property (currently only for UITableView) 
-:rocket:| Manage which delegates responsible for returning value for UIKit controls using ```ruby responsableForSelectors:``` method
+:rocket:| Manage which delegates responsible for returning value for UIKit controls using ```ruby
+ responsableForSelectors:``` method
 
 
 ## Example
