@@ -24,7 +24,6 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/elano50/MulticastDelegate.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '9.3'
-  s.swift_version = '4.2'
 
   s.source_files = 'MulticastDelegate/Classes/**/*'
   
