@@ -2,6 +2,7 @@
 [![Version](https://img.shields.io/cocoapods/v/MulticastDelegateKit.svg?style=flat)](https://cocoapods.org/pods/MulticastDelegateKit)
 [![License](https://img.shields.io/cocoapods/l/MulticastDelegateKit.svg?style=flat)](https://cocoapods.org/pods/MulticastDelegateKit)
 [![Platform](https://img.shields.io/cocoapods/p/MulticastDelegateKit.svg?style=flat)](https://cocoapods.org/pods/MulticastDelegateKit)
+![Swift](https://img.shields.io/badge/%20in-swift%204.2-orange.svg)
 
 Multicast delegate framework written on Swift 4.2.
 
