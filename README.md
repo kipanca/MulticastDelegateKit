@@ -66,6 +66,8 @@ class BazClass: FooClassDelegate {
 
 ### Responsible for selectors example
 
+Some delegate methods can return a value. So when we have several delegates, we need a mechanism to manage which delegate is responsible for returning value. Only one delegate should be responsible for returning value, other delegates are listeners. 
+
 ```swift
 class FooClass: UITableViewDelegate, MulticastableDelegate {
   var tableView: MultidelegateTableView
