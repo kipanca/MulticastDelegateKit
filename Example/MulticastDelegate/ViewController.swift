@@ -25,7 +25,7 @@ class ViewController: UIViewController {
 extension ViewController: UITableViewDelegate {
   func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
     print("ViewController: (tableView: heightForRowAt:)")
-    return 90 // returned value will be used as row height because ViewController implements responsableForSelectors() method
+    return 90 // returned value will be used as row height because ViewController implements responsibleForSelectors() method
   }
 }
 
@@ -42,7 +42,7 @@ extension ViewController: UITableViewDataSource {
 }
 
 extension ViewController: MulticastableDelegate {
-  func responsableForSelectors() -> [String]? {
+  func responsibleForSelectors() -> [String]? {
     return [#selector(tableView(_:heightForRowAt:)).description]
   }
 }

@@ -67,7 +67,7 @@ extension MultidelegateTableView: UITableViewDelegate {
   public func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
     var targetDelegate: UITableViewDelegate?
     multiDelegate.invoke { delegate in
-      if (delegate as? MulticastableDelegate)?.responsableForSelectors()?
+      if (delegate as? MulticastableDelegate)?.responsibleForSelectors()?
         .contains(#selector(tableView(_:heightForRowAt:)).description) ?? false {
         targetDelegate = delegate
       } else {
@@ -80,7 +80,7 @@ extension MultidelegateTableView: UITableViewDelegate {
   public func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
     var targetDelegate: UITableViewDelegate?
     multiDelegate.invoke { delegate in
-      if (delegate as? MulticastableDelegate)?.responsableForSelectors()?
+      if (delegate as? MulticastableDelegate)?.responsibleForSelectors()?
         .contains(#selector(tableView(_:heightForHeaderInSection:)).description) ?? false {
         targetDelegate = delegate
       } else {
@@ -93,7 +93,7 @@ extension MultidelegateTableView: UITableViewDelegate {
   public func tableView(_ tableView: UITableView, heightForFooterInSection section: Int) -> CGFloat {
     var targetDelegate: UITableViewDelegate?
     multiDelegate.invoke { delegate in
-      if (delegate as? MulticastableDelegate)?.responsableForSelectors()?
+      if (delegate as? MulticastableDelegate)?.responsibleForSelectors()?
         .contains(#selector(tableView(_:heightForFooterInSection:)).description) ?? false {
         targetDelegate = delegate
       } else {
@@ -106,7 +106,7 @@ extension MultidelegateTableView: UITableViewDelegate {
   public func tableView(_ tableView: UITableView, estimatedHeightForRowAt indexPath: IndexPath) -> CGFloat {
     var targetDelegate: UITableViewDelegate?
     multiDelegate.invoke { delegate in
-      if (delegate as? MulticastableDelegate)?.responsableForSelectors()?
+      if (delegate as? MulticastableDelegate)?.responsibleForSelectors()?
         .contains(#selector(tableView(_:estimatedHeightForRowAt:)).description) ?? false {
         targetDelegate = delegate
       } else {
@@ -119,7 +119,7 @@ extension MultidelegateTableView: UITableViewDelegate {
   public func tableView(_ tableView: UITableView, estimatedHeightForHeaderInSection section: Int) -> CGFloat {
     var targetDelegate: UITableViewDelegate?
     multiDelegate.invoke { delegate in
-      if (delegate as? MulticastableDelegate)?.responsableForSelectors()?
+      if (delegate as? MulticastableDelegate)?.responsibleForSelectors()?
         .contains(#selector(tableView(_:estimatedHeightForHeaderInSection:)).description) ?? false {
         targetDelegate = delegate
       } else {
@@ -132,7 +132,7 @@ extension MultidelegateTableView: UITableViewDelegate {
   public func tableView(_ tableView: UITableView, estimatedHeightForFooterInSection section: Int) -> CGFloat {
     var targetDelegate: UITableViewDelegate?
     multiDelegate.invoke { delegate in
-      if (delegate as? MulticastableDelegate)?.responsableForSelectors()?
+      if (delegate as? MulticastableDelegate)?.responsibleForSelectors()?
         .contains(#selector(tableView(_:estimatedHeightForFooterInSection:)).description) ?? false {
         targetDelegate = delegate
       } else {
@@ -145,7 +145,7 @@ extension MultidelegateTableView: UITableViewDelegate {
   public func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
     var targetDelegate: UITableViewDelegate?
     multiDelegate.invoke { delegate in
-      if (delegate as? MulticastableDelegate)?.responsableForSelectors()?
+      if (delegate as? MulticastableDelegate)?.responsibleForSelectors()?
         .contains(#selector(tableView(_:viewForHeaderInSection:)).description) ?? false {
         targetDelegate = delegate
       } else {
@@ -158,7 +158,7 @@ extension MultidelegateTableView: UITableViewDelegate {
   public func tableView(_ tableView: UITableView, viewForFooterInSection section: Int) -> UIView? {
     var targetDelegate: UITableViewDelegate?
     multiDelegate.invoke { delegate in
-      if (delegate as? MulticastableDelegate)?.responsableForSelectors()?
+      if (delegate as? MulticastableDelegate)?.responsibleForSelectors()?
         .contains(#selector(tableView(_:viewForFooterInSection:)).description) ?? false {
         targetDelegate = delegate
       } else {
@@ -177,7 +177,7 @@ extension MultidelegateTableView: UITableViewDelegate {
   public func tableView(_ tableView: UITableView, shouldHighlightRowAt indexPath: IndexPath) -> Bool {
     var targetDelegate: UITableViewDelegate?
     multiDelegate.invoke { delegate in
-      if (delegate as? MulticastableDelegate)?.responsableForSelectors()?
+      if (delegate as? MulticastableDelegate)?.responsibleForSelectors()?
         .contains(#selector(tableView(_:shouldHighlightRowAt:)).description) ?? false {
         targetDelegate = delegate
       } else {
@@ -202,7 +202,7 @@ extension MultidelegateTableView: UITableViewDelegate {
   public func tableView(_ tableView: UITableView, willSelectRowAt indexPath: IndexPath) -> IndexPath? {
     var targetDelegate: UITableViewDelegate?
     multiDelegate.invoke { delegate in
-      if (delegate as? MulticastableDelegate)?.responsableForSelectors()?
+      if (delegate as? MulticastableDelegate)?.responsibleForSelectors()?
         .contains(#selector(tableView(_:willSelectRowAt:)).description) ?? false {
         targetDelegate = delegate
       } else {
@@ -215,7 +215,7 @@ extension MultidelegateTableView: UITableViewDelegate {
   public func tableView(_ tableView: UITableView, willDeselectRowAt indexPath: IndexPath) -> IndexPath? {
     var targetDelegate: UITableViewDelegate?
     multiDelegate.invoke { delegate in
-      if (delegate as? MulticastableDelegate)?.responsableForSelectors()?
+      if (delegate as? MulticastableDelegate)?.responsibleForSelectors()?
         .contains(#selector(tableView(_:willDeselectRowAt:)).description) ?? false {
         targetDelegate = delegate
       } else {
@@ -240,7 +240,7 @@ extension MultidelegateTableView: UITableViewDelegate {
   public func tableView(_ tableView: UITableView, editingStyleForRowAt indexPath: IndexPath) -> UITableViewCell.EditingStyle {
     var targetDelegate: UITableViewDelegate?
     multiDelegate.invoke { delegate in
-      if (delegate as? MulticastableDelegate)?.responsableForSelectors()?
+      if (delegate as? MulticastableDelegate)?.responsibleForSelectors()?
         .contains(#selector(tableView(_:editingStyleForRowAt:)).description) ?? false {
         targetDelegate = delegate
       } else {
@@ -253,7 +253,7 @@ extension MultidelegateTableView: UITableViewDelegate {
   public func tableView(_ tableView: UITableView, titleForDeleteConfirmationButtonForRowAt indexPath: IndexPath) -> String? {
     var targetDelegate: UITableViewDelegate?
     multiDelegate.invoke { delegate in
-      if (delegate as? MulticastableDelegate)?.responsableForSelectors()?
+      if (delegate as? MulticastableDelegate)?.responsibleForSelectors()?
         .contains(#selector(tableView(_:titleForDeleteConfirmationButtonForRowAt:)).description) ?? false {
         targetDelegate = delegate
       } else {
@@ -266,7 +266,7 @@ extension MultidelegateTableView: UITableViewDelegate {
   public func tableView(_ tableView: UITableView, editActionsForRowAt indexPath: IndexPath) -> [UITableViewRowAction]? {
     var targetDelegate: UITableViewDelegate?
     multiDelegate.invoke { delegate in
-      if (delegate as? MulticastableDelegate)?.responsableForSelectors()?
+      if (delegate as? MulticastableDelegate)?.responsibleForSelectors()?
         .contains(#selector(tableView(_:editActionsForRowAt:)).description) ?? false {
         targetDelegate = delegate
       } else {
@@ -281,7 +281,7 @@ extension MultidelegateTableView: UITableViewDelegate {
                  leadingSwipeActionsConfigurationForRowAt indexPath: IndexPath) -> UISwipeActionsConfiguration? {
     var targetDelegate: UITableViewDelegate?
     multiDelegate.invoke { delegate in
-      if (delegate as? MulticastableDelegate)?.responsableForSelectors()?
+      if (delegate as? MulticastableDelegate)?.responsibleForSelectors()?
         .contains(#selector(tableView(_:leadingSwipeActionsConfigurationForRowAt:)).description) ?? false {
         targetDelegate = delegate
       } else {
@@ -296,7 +296,7 @@ extension MultidelegateTableView: UITableViewDelegate {
                  trailingSwipeActionsConfigurationForRowAt indexPath: IndexPath) -> UISwipeActionsConfiguration? {
     var targetDelegate: UITableViewDelegate?
     multiDelegate.invoke { delegate in
-      if (delegate as? MulticastableDelegate)?.responsableForSelectors()?
+      if (delegate as? MulticastableDelegate)?.responsibleForSelectors()?
         .contains(#selector(tableView(_:trailingSwipeActionsConfigurationForRowAt:)).description) ?? false {
         targetDelegate = delegate
       } else {
@@ -309,7 +309,7 @@ extension MultidelegateTableView: UITableViewDelegate {
   public func tableView(_ tableView: UITableView, shouldIndentWhileEditingRowAt indexPath: IndexPath) -> Bool {
     var targetDelegate: UITableViewDelegate?
     multiDelegate.invoke { delegate in
-      if (delegate as? MulticastableDelegate)?.responsableForSelectors()?
+      if (delegate as? MulticastableDelegate)?.responsibleForSelectors()?
         .contains(#selector(tableView(_:shouldIndentWhileEditingRowAt:)).description) ?? false {
         targetDelegate = delegate
       } else {
@@ -335,7 +335,7 @@ extension MultidelegateTableView: UITableViewDelegate {
                  toProposedIndexPath proposedDestinationIndexPath: IndexPath) -> IndexPath {
     var targetDelegate: UITableViewDelegate?
     multiDelegate.invoke { delegate in
-      if (delegate as? MulticastableDelegate)?.responsableForSelectors()?
+      if (delegate as? MulticastableDelegate)?.responsibleForSelectors()?
         .contains(#selector(tableView(_:targetIndexPathForMoveFromRowAt:toProposedIndexPath:)).description) ?? false {
         targetDelegate = delegate
       } else {
@@ -350,7 +350,7 @@ extension MultidelegateTableView: UITableViewDelegate {
   public func tableView(_ tableView: UITableView, indentationLevelForRowAt indexPath: IndexPath) -> Int {
     var targetDelegate: UITableViewDelegate?
     multiDelegate.invoke { delegate in
-      if (delegate as? MulticastableDelegate)?.responsableForSelectors()?
+      if (delegate as? MulticastableDelegate)?.responsibleForSelectors()?
         .contains(#selector(tableView(_:indentationLevelForRowAt:)).description) ?? false {
         targetDelegate = delegate
       } else {
@@ -363,7 +363,7 @@ extension MultidelegateTableView: UITableViewDelegate {
   public func tableView(_ tableView: UITableView, shouldShowMenuForRowAt indexPath: IndexPath) -> Bool {
     var targetDelegate: UITableViewDelegate?
     multiDelegate.invoke { delegate in
-      if (delegate as? MulticastableDelegate)?.responsableForSelectors()?
+      if (delegate as? MulticastableDelegate)?.responsibleForSelectors()?
         .contains(#selector(tableView(_:shouldShowMenuForRowAt:)).description) ?? false {
         targetDelegate = delegate
       } else {
@@ -377,7 +377,7 @@ extension MultidelegateTableView: UITableViewDelegate {
                  forRowAt indexPath: IndexPath, withSender sender: Any?) -> Bool {
     var targetDelegate: UITableViewDelegate?
     multiDelegate.invoke { delegate in
-      if (delegate as? MulticastableDelegate)?.responsableForSelectors()?
+      if (delegate as? MulticastableDelegate)?.responsibleForSelectors()?
         .contains(#selector(tableView(_:canPerformAction:forRowAt:withSender:)).description) ?? false {
         targetDelegate = delegate
       } else {
@@ -396,7 +396,7 @@ extension MultidelegateTableView: UITableViewDelegate {
   public func tableView(_ tableView: UITableView, canFocusRowAt indexPath: IndexPath) -> Bool {
     var targetDelegate: UITableViewDelegate?
     multiDelegate.invoke { delegate in
-      if (delegate as? MulticastableDelegate)?.responsableForSelectors()?
+      if (delegate as? MulticastableDelegate)?.responsibleForSelectors()?
         .contains(#selector(tableView(_:canFocusRowAt:)).description) ?? false {
         targetDelegate = delegate
       } else {
@@ -409,7 +409,7 @@ extension MultidelegateTableView: UITableViewDelegate {
   public func tableView(_ tableView: UITableView, shouldUpdateFocusIn context: UITableViewFocusUpdateContext) -> Bool {
     var targetDelegate: UITableViewDelegate?
     multiDelegate.invoke { delegate in
-      if (delegate as? MulticastableDelegate)?.responsableForSelectors()?
+      if (delegate as? MulticastableDelegate)?.responsibleForSelectors()?
         .contains(#selector(tableView(_:shouldUpdateFocusIn:)).description) ?? false {
         targetDelegate = delegate
       } else {
@@ -428,7 +428,7 @@ extension MultidelegateTableView: UITableViewDelegate {
   public func indexPathForPreferredFocusedView(in tableView: UITableView) -> IndexPath? {
     var targetDelegate: UITableViewDelegate?
     multiDelegate.invoke { delegate in
-      if (delegate as? MulticastableDelegate)?.responsableForSelectors()?
+      if (delegate as? MulticastableDelegate)?.responsibleForSelectors()?
         .contains(#selector(indexPathForPreferredFocusedView(in:)).description) ?? false {
         targetDelegate = delegate
       } else {
@@ -443,7 +443,7 @@ extension MultidelegateTableView: UITableViewDelegate {
                  with context: UISpringLoadedInteractionContext) -> Bool {
     var targetDelegate: UITableViewDelegate?
     multiDelegate.invoke { delegate in
-      if (delegate as? MulticastableDelegate)?.responsableForSelectors()?
+      if (delegate as? MulticastableDelegate)?.responsibleForSelectors()?
         .contains(#selector(tableView(_:shouldSpringLoadRowAt:with:)).description) ?? false {
         targetDelegate = delegate
       } else {

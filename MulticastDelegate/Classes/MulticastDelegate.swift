@@ -12,7 +12,7 @@ import Foundation
   /**
    Used to specify for which selectors delegate returns final value. Returns selectors as [String]?
   */
-  func responsableForSelectors() -> [String]?
+  func responsibleForSelectors() -> [String]?
 }
 
 /// Multiple delegate implementation
